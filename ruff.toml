@@ -1,0 +1,42 @@
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".ipynb_checkpoints",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pyenv",
+    ".pytest_cache",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    ".vscode",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "site-packages",
+    "venv",
+]
+line-length = 80
+indent-width = 4
+indent-style = "space"
+show-fixes = true
+
+[format]
+docstring-code-format = true
+quote-style = "single"
+skip-magic-trailing-comma = true
+
+[lint.isort]
+case-sensitive = true
+force-wrap-aliases = true
+combine-as-imports = true

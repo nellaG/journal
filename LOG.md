@@ -14,4 +14,10 @@ $ rye sync
 # see with `rye list`, requirements.lock file
 ```
 
+### add pre-commit and ruff
+```
+$ rye add pre-commit
+$ rye add ruff
+add .pre-commit-config.yaml and ruff.toml
 
+```
