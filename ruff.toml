@@ -26,12 +26,13 @@ exclude = [
     "site-packages",
     "venv",
 ]
+
 line-length = 80
 indent-width = 4
-indent-style = "space"
 show-fixes = true
 
 [format]
+indent-style = "space"
 docstring-code-format = true
 quote-style = "single"
 skip-magic-trailing-comma = true
