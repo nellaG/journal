@@ -21,3 +21,21 @@ $ rye add ruff
 add .pre-commit-config.yaml and ruff.toml
 
 ```
+
+### django
+- setting
+```
+$ python manage.py startapp journal
+```
+
+- create database
+```
+createuser -U postgres -s gallen
+createdb -U gallen journal
+psql -U gallen -d journal
+```
+
+- db configuration
+```
+src.settings.py.DATABASES
+```
