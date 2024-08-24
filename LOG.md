@@ -39,3 +39,9 @@ psql -U gallen -d journal
 ```
 src.settings.py.DATABASES
 ```
+
+- db migration
+```
+python manage.py makemigrations journal
+python manage.py migrate journal
+```
