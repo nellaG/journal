@@ -44,4 +44,6 @@ src.settings.py.DATABASES
 ```
 python manage.py makemigrations journal
 python manage.py migrate journal
+python manage.py migrate    # auth, admin, sessions
+python manage.py createsuperuser  # add admin user
 ```
