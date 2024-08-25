@@ -22,7 +22,7 @@ add .pre-commit-config.yaml and ruff.toml
 
 ```
 
-### django
+### django + rest-framework
 - setting
 ```
 $ python manage.py startapp journal
@@ -46,4 +46,26 @@ python manage.py makemigrations journal
 python manage.py migrate journal
 python manage.py migrate    # auth, admin, sessions
 python manage.py createsuperuser  # add admin user
+```
+
+- install rest-framework
+```
+$ rye add djangorestframework
+# and add some viewsets...
+```
+
+### frontend (vite + react)
+- setting
+```
+# install pnpm
+$ npm install -g pnpm
+$ pnpm create vite@latest journal-frontend -- --template react-ts
+# (select `React`, `TypeScript + SWC`)
+Scaffolding project in /Users/gallen/journal/journal-frontend...
+
+Done. Now run:
+
+  cd journal-frontend
+  pnpm install
+  pnpm run dev
 ```
