@@ -68,4 +68,22 @@ Done. Now run:
   cd journal-frontend
   pnpm install
   pnpm run dev
+
+add some packages:
+  pnpm add axios
+
+prettier settings:
+  pnpm add prettier
+  (and install coc-prettier, set format-on-save to typescript, typescrpt react)
+
+pick jotai to management stage with atomic way
+  pnpm add jotai
+
+build basic App and component
+```
+
+### enable CORS for frontend
+```
+$ rye add  django-cors-headers
+add some settings on src/settings.py
 ```
